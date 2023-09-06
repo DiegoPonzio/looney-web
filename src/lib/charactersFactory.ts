@@ -1,9 +1,12 @@
 import fs from 'fs/promises';
 import { CartoonCharacter } from '../interfaces/characters';
 
+
+const path = `${process.cwd()}/src/characters.json`;
+
 const getCharacters = async () => {
     // Leer el archivo characters.ts.json
-    const charactersFile = await fs.readFile('./src/characters.json', 'utf-8');
+    const charactersFile = await fs.readFile(path, 'utf-8');
 
     // Convertir el archivo a un objeto
     const charactersObject = JSON.parse(charactersFile) as CartoonCharacter[];
@@ -33,7 +36,7 @@ const getCharacters = async () => {
 
 const getVideoCharacters = async () => {
     // Leer el archivo characters.ts.json
-    const charactersFile = await fs.readFile('./src/characters.json', 'utf-8');
+    const charactersFile = await fs.readFile(path, 'utf-8');
 
     // Convertir el archivo a un objeto
     const charactersObject = JSON.parse(charactersFile) as CartoonCharacter[];
@@ -58,7 +61,7 @@ const getVideoCharacters = async () => {
 
 const getVideoNNames = async () => {
     // Leer el archivo characters.ts.json
-    const charactersFile = await fs.readFile('./src/characters.json', 'utf-8');
+    const charactersFile = await fs.readFile(path, 'utf-8');
 
     // Convertir el archivo a un objeto
     const charactersObject = JSON.parse(charactersFile) as CartoonCharacter[];
