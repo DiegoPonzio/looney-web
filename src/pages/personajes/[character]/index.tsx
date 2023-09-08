@@ -79,7 +79,7 @@ const Index: FC<MyProps> = ({ character }) => {
                         {video.name}
                         {showVideos === video.name.replace(/'/g, "") ? <BsArrowUpShort className={"text-3xl"} /> : <BsArrowDownShort className={"text-3xl"} />}
                     </span>
-                    <div className={`grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-4 w-full transition-all duration-500 ease-in-out overflow-hidden ${showVideos === video.name.replace(/'/g, "") ? "max-h-[1000px]" : "max-h-0"}`}>
+                    <div className={`grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-4 w-full transition-all duration-500 ease-in-out overflow-auto h-auto ${showVideos === video.name.replace(/'/g, "") ? "max-h-[1000px]" : "max-h-0"}`}>
                         {video.info.map((info, index) => {
                             return (
                                 <Link href={`/personajes/${urlCharacter}/${urlVideo(video.name)}/video/${urlVideo(info.name)}`} key={`${info}_${index}`} className={"flex flex-col items-center justify-center w-full cursor-pointer"}>
