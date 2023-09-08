@@ -8,9 +8,10 @@ interface MyProps {
 	title: string;
 	character: string;
 	name: string;
+	category?: string;
 }
-export const VideoNavegation: FC<MyProps> = ({title, name, character}) => {
-	const { characterData, loading, error } = useVideoCharacter(name, character)
+export const VideoNavegation: FC<MyProps> = ({title, name, character, category = "all"}) => {
+	const { characterData, loading, error } = useVideoCharacter(name, character, category);
 
 	// quitar el /view/ del link
 	const videoUrl = characterData.link?.replace("/view", "/preview") || "";
@@ -18,13 +19,13 @@ export const VideoNavegation: FC<MyProps> = ({title, name, character}) => {
 	const nextLink = () => {
 		const nextVideo = characterData.nextVideo?.replace(/\s/g, '-').replace("?", "") || "";
 
-		return  nextVideo === "" ? "#" :`/personajes/${character}/video/${nextVideo}`;
+		return  nextVideo === "" ? "#" : category === "all" ? `/personajes/${character}/video/${nextVideo}` : `/personajes/${character}/${category}/video/${nextVideo}`;
 	}
 
 	const prevLink = () => {
 		const prevVideo = characterData.previousVideo?.replace(/\s/g, '-').replace("?", "") || "";
 
-		return  prevVideo === "" ? "#" :`/personajes/${character}/video/${prevVideo}`;
+		return  prevVideo === "" ? "#" : category === "all" ? `/personajes/${character}/video/${prevVideo}` : `/personajes/${character}/${category}/video/${prevVideo}`;
 	}
 
 	return (

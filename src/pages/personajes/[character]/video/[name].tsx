@@ -1,6 +1,6 @@
 import {Layout} from "@/components/Layout";
 import {VideoNavegation} from "@/components/video/VideoNavegation";
-import {getVideoCharacters} from "@/lib/charactersFactory";
+import {getVideoCharacters, getVideoWithCategories} from "@/lib/charactersFactory";
 import {GetStaticPaths, GetStaticProps} from "next";
 import {FC} from "react";
 
@@ -25,7 +25,11 @@ export const getStaticPaths: GetStaticPaths =  async () => {
 
     videoNames.forEach((videoName) => {
         videoName.info.forEach((info) => {
-            paths.push({params: {character: videoName.name.replace(/\s/g, '-'), name: info.replace(/\s/g, '-').replace("?", "")}})
+            // los videos empiezan con un numero
+            const regex = /^[0-9]/;
+            if (regex.test(info)) {
+                paths.push({params: {character: videoName.name.replace(/\s/g, '-'), name: info.replace(/\s/g, '-').replace("?", "")}})
+            }
         })
     })
 

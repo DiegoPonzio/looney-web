@@ -18,10 +18,10 @@ const getCharacters = async () => {
         const regex = /^[0-9]/;
 
         // Filtrar los nombres que empiezan con un numero
-        const newInfo = info.filter(({ name, link }) =>  link === null && name);
+        //const newInfo = info.filter(({ name, link }) =>  link === null && name);
 
         // Filtrar los nombres que empiezan con un numero
-        const filteredInfo = newInfo.filter(({ name }) => !regex.test(name));
+        const filteredInfo = info.filter(({ name }) => !regex.test(name));
 
         const justNames = filteredInfo.map(({ name }) => name);
 
@@ -82,4 +82,29 @@ const getVideoNNames = async () => {
     return videoNames;
 }
 
-export { getCharacters, getVideoCharacters, getVideoNNames };
+const getVideoWithCategories = async () => {
+    // Leer el archivo characters.json
+    const charactersFile = await fs.readFile(path, 'utf-8');
+
+    // Convertir el archivo a un objeto
+    const charactersObject = JSON.parse(charactersFile) as CartoonCharacter[];
+
+    // obtenemos los personajes que tienen categorias
+    const videoCategories = charactersObject.map((character) => {
+        const { info, name } = character;
+
+        const newInfo = info.filter(({ info }) => info !== undefined);
+
+        return {
+            name,
+            info: newInfo
+        }
+    });
+
+    // filtarmos los personajes que tienen categorias
+    const videoCategoriesFiltered = videoCategories.filter(({ info }) => info.length > 0);
+
+    return videoCategoriesFiltered;
+}
+
+export { getCharacters, getVideoCharacters, getVideoNNames, getVideoWithCategories };

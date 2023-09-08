@@ -15,6 +15,10 @@ export const Layout: FC<MyProps> = ({ children, title }) => {
 	const [open, setOpen] = useState(false)
 	const { characters, loading, error } = useCharacters()
 
+	const handlerClose = () => {
+		setOpen(!open)
+	}
+
 	return (
 		<>
 			<Head>
@@ -31,7 +35,7 @@ export const Layout: FC<MyProps> = ({ children, title }) => {
 				<div className={"text-3xl relative z-[2] transition-transform duration-[0.4s] ease-in-out text-green"} onClick={() => setOpen(!open)}>
 					{open ? <AiOutlineClose /> : <GiHamburgerMenu />}
 				</div>
-				<nav className={`w-full md:w-1/4 h-screen bg-white dark:bg-[#1A1A1A] fixed top-0 left-0 z-[1] transition-transform duration-[0.4s] ease-in-out transform ${open ? 'translate-x-0' : '-translate-x-full'} mt-14`}>
+				<nav className={`w-full md:w-1/4 h-screen bg-white dark:bg-[#1A1A1A] fixed top-0 left-0 z-[1] transition-transform duration-[0.4s] ease-in-out transform ${open ? 'translate-x-0' : '-translate-x-full'} mt-12`}>
 					<div className={"m-0 p-0"}>
 						<ul className={"flex flex-col justify-between items-center mx-2 px-2 gap-5 mt-4 text-orange text-lg"}>
 							{ loading ? <p>Cargando...</p> : error ? <p>Ha ocurrido un error</p> : characters.map((character, index) => {
@@ -44,7 +48,7 @@ export const Layout: FC<MyProps> = ({ children, title }) => {
 										</li>
 									)
 								} else {
-									return <InnerLinks name={character.name} index={index} info={character.info}/>
+									return <InnerLinks name={character.name} index={index} info={character.info} handleClick={handlerClose}/>
 								}
 							})}
 						</ul>

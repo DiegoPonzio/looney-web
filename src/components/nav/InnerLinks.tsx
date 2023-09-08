@@ -7,9 +7,10 @@ interface MyProps {
 	name: string;
 	index: number;
 	info: CartoonInfo[];
+	handleClick: () => void;
 }
 
-export const InnerLinks: FC<MyProps> = ({ name, index, info }) => {
+export const InnerLinks: FC<MyProps> = ({ name, index, info, handleClick }) => {
 	const [heading, setHeading] = useState("")
 
 	const quitQuotes = (string: string) => {
@@ -29,8 +30,8 @@ export const InnerLinks: FC<MyProps> = ({ name, index, info }) => {
 			<div className={`transition-all duration-500 ease-in-out overflow-hidden ${heading === name ? "max-h-[1000px]" : "max-h-0"}`}>
 				<ul className="flex flex-col justify-between items-center mx-2 px-2 gap-5 mt-4">
 					{ info.map((character, index) => (
-						<li key={`${character}_${index}`}>
-							<Link href={`/character/${character || "holi"}`}>
+						<li key={`${character}_${index}`} onClick={handleClick}>
+							<Link href={`/personajes/${name.replace(/\s/g, '-')}?category=${quitQuotes(JSON.stringify(character)).replace(/\s/g, '-')}#${quitQuotes(JSON.stringify(character)).replace(/\s/g, '-')}`}>
 								{ quitQuotes(JSON.stringify(character)) || "holi"}
 							</Link>
 						</li>
