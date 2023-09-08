@@ -75,7 +75,7 @@ const Index: FC<MyProps> = ({ character }) => {
         if (video.info) {
             return (
                 <div key={`${video.name}_${index}`} className={"flex flex-col items-center justify-center w-full"}>
-                    <span id={clearId(video.name)} className={"text-xl text-red rounded mb-4 flex items-center"} onClick={() => handlerShowVideos(video.name.replace(/'/g, ""))}>
+                    <span id={clearId(video.name)} className={"cursor-pointer text-xl text-red rounded mb-4 flex items-center"} onClick={() => handlerShowVideos(video.name.replace(/'/g, ""))}>
                         {video.name}
                         {showVideos === video.name.replace(/'/g, "") ? <BsArrowUpShort className={"text-3xl"} /> : <BsArrowDownShort className={"text-3xl"} />}
                     </span>
