@@ -9,7 +9,6 @@ export default function Document() {
       <body className={"dark:bg-[#1A1A1A] dark:text-gray text-dark"}>
         <Main />
         <NextScript />
-        <script src={"/sw"} />
       </body>
     </Html>
   )
