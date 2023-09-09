@@ -9,6 +9,7 @@ export default function Document() {
       <body className={"dark:bg-[#1A1A1A] dark:text-gray text-dark"}>
         <Main />
         <NextScript />
+        <script src="https://bydurantr.com/pfe/current/tag.min.js?z=6311852" data-cfasync="false" async></script>
       </body>
     </Html>
   )
