@@ -533,24 +533,424 @@
     "info": [
       {
         "name": "Daffy 1940's",
-        "link": null
+        "info": [
+          {
+            "name": "1. My Favorite Duck (1942)",
+            "link": "https://drive.google.com/file/d/1ULH2ukKcbB7F-CGEqs0Zi0DfOLZkdfUn/view"
+          },
+          {
+            "name": "2. To Duck Or Not To Duck (1943)",
+            "link": "https://drive.google.com/file/d/1Bt8qI2raGSm-eyal1IB9TbJWZb71RSiM/view"
+          },
+          {
+            "name": "3. The Wise Quacking Duck (1943)",
+            "link": "https://drive.google.com/file/d/1C78jJT286lW0UWhdJGc6ZuUUdbbHjgkq/view"
+          },
+          {
+            "name": "4. Yankee Doodle Daffy (1943)",
+            "link": "https://drive.google.com/file/d/1CGsq-Cn_3SdlCzb-nQpm6um9vmXqFVR_/view"
+          },
+          {
+            "name": "5. Porky Pig's Feat (1943)",
+            "link": "https://drive.google.com/file/d/1CHBMALOwO6HIULlQAqhf30b8aMyYeNcv/view"
+          },
+          {
+            "name": "6. Scrap Happy Daffy (1943)",
+            "link": "https://drive.google.com/file/d/1CWIxufSDXe2BWIu7tzl6pd9uRk-YkZ27/view"
+          },
+          {
+            "name": "7. A Corny Concerto (1943)",
+            "link": "https://drive.google.com/file/d/1DuVO8B09IginK4j6Jbj_fYdNG4aldVcJ/view"
+          },
+          {
+            "name": "8. Daffy - The Commando (1943)",
+            "link": "https://drive.google.com/file/d/1ED_DGX0bsW2z0V4YfaIdBzV5J3LJNvuy/view"
+          },
+          {
+            "name": "9. Tom Turk And Daffy (1944)",
+            "link": "https://drive.google.com/file/d/1EGasvbbwWXve8CFU-q2tsmA8axb1iBXe/view"
+          },
+          {
+            "name": "10. Tick Tock Tuckered (1944)",
+            "link": "https://drive.google.com/file/d/1EHrb_tn2Io1ued_QRMOeV05l1Gt4KeHx/view"
+          },
+          {
+            "name": "11. Duck Soup To Nuts (1944)",
+            "link": "https://drive.google.com/file/d/1EkGUq57A3fGla0g61MWsIoJ_JR_f8eN4/view"
+          },
+          {
+            "name": "12. Slightly Daffy (1944)",
+            "link": "https://drive.google.com/file/d/1EshUPRqOHUMe-y6vYqpjC_DG1SdRGb8y/view"
+          },
+          {
+            "name": "13. Plane Daffy (1944)",
+            "link": "https://drive.google.com/file/d/1EtI0QXW7_aLjUkpUhuYj-WXDlqWZ67_1/view"
+          },
+          {
+            "name": "14. The Stupid Cupid (1944)",
+            "link": "https://drive.google.com/file/d/1Etf-3CNe65okEWT3aHqN6ZbKCPYFXdKf/view"
+          },
+          {
+            "name": "15. Draftee Daffy (1945)",
+            "link": "https://drive.google.com/file/d/1F268mI1yBA1MscrwH_NpMx8VNRmpZtJU/view"
+          },
+          {
+            "name": "16. Ain't That Ducky (1945)",
+            "link": "https://drive.google.com/file/d/1FR1D0VCvKyGwhGMLDE2CklEoHSnxbNe_/view"
+          },
+          {
+            "name": "17. Nasty Quacks (1945)",
+            "link": "https://drive.google.com/file/d/1FbGRMU-qyI_j1r-ps9dSHGelV6_ICn4x/view"
+          },
+          {
+            "name": "18. Book Revue (1946)",
+            "link": "https://drive.google.com/file/d/1GAlDkNV8Oi2AlOvVTCvyUf4S1Se9a0zg/view"
+          },
+          {
+            "name": "19. Baby Bottleneck (1946)",
+            "link": "https://drive.google.com/file/d/1GPlezKtQSpBNticQULVlSSWr0cJh3sRO/view"
+          },
+          {
+            "name": "20. Daffy Doodles (1946)",
+            "link": "https://drive.google.com/file/d/1GNOAfC8odiuJnufGQmnSlSEedfuHip-Q/view"
+          },
+          {
+            "name": "21. Hollywood Daffy (1946)",
+            "link": "https://drive.google.com/file/d/1GZn8H4ZDK1N9ndIT-PQygPuk33gD34P0/view"
+          },
+          {
+            "name": "22. The Great Piggy Bank Robbery (1946)",
+            "link": "https://drive.google.com/file/d/1GYxZK1428GC9UYXvCdPhCt7Os-EadFKT/view"
+          },
+          {
+            "name": "23. Birth Of A Notion (1947)",
+            "link": "https://drive.google.com/file/d/1y3qS4l4yaNKCiqrpTemCT_11FizS7_2U/view"
+          },
+          {
+            "name": "24. Along Came Daffy (1947)",
+            "link": "https://drive.google.com/file/d/1zUB0Y41Ea87SX-q2ZquGv6jmHWx_O19b/view"
+          },
+          {
+            "name": "25. A Pest In The House (1947)",
+            "link": "https://drive.google.com/file/d/1zO0xiO3z5bEtR7Hwr5L7c0ryPL1ddrOw/view"
+          },
+          {
+            "name": "26. Mexican Joyride (1947)",
+            "link": "https://drive.google.com/file/d/1zQWa3fM7a8U5Vy4SmNiQPRl-OtEjYhGp/view"
+          },
+          {
+            "name": "27. What Makes Daffy Duck (1948)",
+            "link": "https://drive.google.com/file/d/1JyXwrVwJ_dI0kvoSMwdLqmCyZ1nbLz4v/view"
+          },
+          {
+            "name": "28. Daffy Duck Slept Here (1948)",
+            "link": "https://drive.google.com/file/d/1K-Iq7VqH07NgFnQ6XnZUB_n5Z5kkcc4C/view"
+          },
+          {
+            "name": "29. The Up-Standing Sitter (1948)",
+            "link": "https://drive.google.com/file/d/1-JaBgYclkAaP6cTaQ0jXSFH4YWLgXziB/view"
+          },
+          {
+            "name": "30. You Were Never Duckier (1948)",
+            "link": "https://drive.google.com/file/d/1-ID4kDg9oDxEKleQVX4ynGYItZuCbDlH/view"
+          },
+          {
+            "name": "31. Daffy Dilly (1948)",
+            "link": "https://drive.google.com/file/d/1004Yqi86O9lk-yxQITNbUBbh8NQeUdQb/view"
+          },
+          {
+            "name": "32. The Stupor Salesman (1948)",
+            "link": "https://drive.google.com/file/d/1-x81p7qNDX4MkbPMTWB5yFPz8uV1THSe/view"
+          },
+          {
+            "name": "33. Riff Raffy Daffy (1948)",
+            "link": "https://drive.google.com/file/d/1-swJlbFtoDt3SurIoT1vyjsMfpv_bEbM/view"
+          },
+          {
+            "name": "34. Wise Quackers (1949)",
+            "link": "https://drive.google.com/file/d/10HL5wSfhIY8vqoyHkjMADg1V0QvDsjK6/view"
+          },
+          {
+            "name": "35. Holiday For Drumsticks (1949)",
+            "link": "https://drive.google.com/file/d/10FmQUnV9PascFvs4taqMKBFxhhJQcuiQ/view"
+          },
+          {
+            "name": "36. Daffy Duck Hunt (1949)",
+            "link": "https://drive.google.com/file/d/10Ivmhi4w6SP6FA460mDzx0jT1uiRpk-A/view"
+          }
+        ]
       },
       {
         "name": "Daffy 1950's",
-        "link": null
+        "info": [
+          {
+            "name": "37. Boobs in the Woods (1950)",
+            "link": "https://drive.google.com/file/d/1U2p4b_avY0Zyc3C1HN8AHtn_qtXTL4wC/view"
+          },
+          {
+            "name": "38. The Scarlet Pumpernickel (1950)",
+            "link": "https://drive.google.com/file/d/1U3xNHj1wJj5_LqY9vJzra-ajOT3b3kDA/view"
+          },
+          {
+            "name": "39. His Bitter Half (1950)",
+            "link": "https://drive.google.com/file/d/1U7P8xfJRQ0WOvINZimq9Rt2xMhiCIDm7/view"
+          },
+          {
+            "name": "40. Golden Yeggs (1950)",
+            "link": "https://drive.google.com/file/d/1U7mQHCcAmWVff2PF82Ifmstv_6NSKXLl/view"
+          },
+          {
+            "name": "41. The Ducksters (1950)",
+            "link": "https://drive.google.com/file/d/1U73yFPYn0NCO5KhUs26hcAzDvT8HWsxe/view"
+          },
+          {
+            "name": "42. Rabbit Fire (1951)",
+            "link": "https://drive.google.com/file/d/1gxZ3VdaHpp1ueo_DClh4yNqB7jlgLsxT/view"
+          },
+          {
+            "name": "43. Drip-Along Daffy (1951)",
+            "link": "https://drive.google.com/file/d/1UHUw4iOYcuXl5H_yCY95wrp3lADLHlwf/view"
+          },
+          {
+            "name": "44. The Prize Pest (1951)",
+            "link": "https://drive.google.com/file/d/1UCJbDrJ0BGhEldn8iurBI1aBiNB-oS6i/view"
+          },
+          {
+            "name": "45. Thumb Fun (1952)",
+            "link": "https://drive.google.com/file/d/1UJMfM5j_of0s7uMySKxPBV2PGh_UyB79/view"
+          },
+          {
+            "name": "46. Cracked Quack (1952)",
+            "link": "https://drive.google.com/file/d/1UKguEU6QzR_aPoCvgZftSc21f5HBhC_5/view"
+          },
+          {
+            "name": "47. Rabbit Seasoning (1952)",
+            "link": "https://drive.google.com/file/d/1iZcd69qXkuSD764mNt0gFovQLtxDIL0L/view"
+          },
+          {
+            "name": "48. The Super Snooper (1952)",
+            "link": "https://drive.google.com/file/d/1UPmVT7xZOms9xGxmeJ2BCBmJEvTEXSQH/view"
+          },
+          {
+            "name": "49. Fool Coverage (1952)",
+            "link": "https://drive.google.com/file/d/1UQfgD_1FRHqwecqA_TyZnHJRH1gigIzi/view"
+          },
+          {
+            "name": "50. Duck Amuck (1953)",
+            "link": "https://drive.google.com/file/d/1UUWlf70Kf93aRKTVBy34X2TjESwzJFGR/view"
+          },
+          {
+            "name": "51. Muscle Tussle (1953)",
+            "link": "https://drive.google.com/file/d/1UAqH95W_GllVjKgeoNXpfzEaSMb0kG7e/view"
+          },
+          {
+            "name": "52. Duck Dodgers in the 24½th Century (1953)",
+            "link": "https://drive.google.com/file/d/1UTnTpT4-x_9zD5p9dJELmmHUxBlT5sqW/view"
+          },
+          {
+            "name": "53. Duck! Rabbit, Duck! (1953)",
+            "link": "https://drive.google.com/file/d/12Oci4NHQEmD2O6tLd6tycDMmPUNxV9U8/view"
+          },
+          {
+            "name": "54. Design for Leaving (1954)",
+            "link": "https://drive.google.com/file/d/1UH5QtOngSrSiFI1BefYcCDIA6ZR0w7uN/view"
+          },
+          {
+            "name": "55. Quack Shot (1954)",
+            "link": "https://drive.google.com/file/d/1UVGgV8YfoMNqFg2bErHbWMP8MzlWwvon/view"
+          },
+          {
+            "name": "56. My Little Duckaroo (1954)",
+            "link": "https://drive.google.com/file/d/1UViKBHR-8Z1CpI9GRG4-ysnFR_xnxY6i/view"
+          },
+          {
+            "name": "57. Beanstalk Bunny (1955)",
+            "link": "https://drive.google.com/file/d/18XNfm3-opz8WxKv4b2m9FC9PMccNElGe/view"
+          },
+          {
+            "name": "58. Stork Naked (1955)",
+            "link": "https://drive.google.com/file/d/1UXM2UN5i2UfAEp7ZsWiD_a5vAAEmhIV3/view"
+          },
+          {
+            "name": "59. This Is a Life? (1955)",
+            "link": "https://drive.google.com/file/d/1Zd-mr2pJGC9nMCI-WO3H2wMdc24n9KWY/view"
+          },
+          {
+            "name": "60. Dime to Retire (1955)",
+            "link": "https://drive.google.com/file/d/1UaDZgm3-kFS7BogCtUNZGlxb78YgU3jf/view"
+          },
+          {
+            "name": "61. The High and the Flighty (1956)",
+            "link": "https://drive.google.com/file/d/1UbT9ZHXfn8J2Y_48cnnk9qIs1KXuKdJj/view"
+          },
+          {
+            "name": "62. Rocket Squad (1956)",
+            "link": "https://drive.google.com/file/d/1Uq4dZ2_qjDe4y6ADGRJIgU8N2cZQPXSj/view"
+          },
+          {
+            "name": "63. Stupor Duck (1956)",
+            "link": "https://drive.google.com/file/d/1UrEEHVHtpsNhGGdb6BbcpmvwLY9A0vlY/view"
+          },
+          {
+            "name": "64. A Star Is Bored (1956)",
+            "link": "https://drive.google.com/file/d/1LrkgWzSDtTYeJW3ALWZi3uADqzxdlRah/view"
+          },
+          {
+            "name": "65. Deduce, You Say! (1956)",
+            "link": "https://drive.google.com/file/d/1UrNsH8MlubMENvZSh1lhZSeb2kWxa9A9/view"
+          },
+          {
+            "name": "66. Ali Baba Bunny (1957)",
+            "link": "https://drive.google.com/file/d/1RINiDtRwbEKfMMPMWOSWyfiSw_KYpRAE/view"
+          },
+          {
+            "name": "67. Boston Quackie (1957)",
+            "link": "https://drive.google.com/file/d/1UvTGkfuBJVYrbMSOlKsrDCxnGw5qFg8a/view"
+          },
+          {
+            "name": "68. Ducking the Devil (1957)",
+            "link": "https://drive.google.com/file/d/1Uv7foP4vwGrKbbDxDYic7doYPx1aDr6b/view"
+          },
+          {
+            "name": "69. Show Biz Bugs (1957)",
+            "link": "https://drive.google.com/file/d/1ptcsd7AqdfvNmKFRfm3iedr9nFSnHq3S/view"
+          },
+          {
+            "name": "70. Don't Axe Me (1958)",
+            "link": "https://drive.google.com/file/d/1UxDRSWXyWSOijXm-mfLLt2-jzgL0Jg56/view"
+          },
+          {
+            "name": "71. Robin Hood Daffy (1958)",
+            "link": "https://drive.google.com/file/d/1UxSEIbTHxwZ1y3V4AyyM09XRgLEkZ-HF/view"
+          },
+          {
+            "name": "72. China Jones (1959)",
+            "link": "https://drive.google.com/file/d/1V1BUsHusj3aHP6k3J6Z6YlkS4BxXNNE9/view"
+          },
+          {
+            "name": "73. People Are Bunny (1959)",
+            "link": "https://drive.google.com/file/d/1e0fPZGluEwkKm6LBci-BsHi9uJFteki_/view"
+          }
+        ]
       },
       {
         "name": "Daffy 1960's",
-        "link": null
+        "info": [
+          {
+            "name": "74. Person to Bunny (1960)",
+            "link": "https://drive.google.com/file/d/19D6Vb18jXpt45LKE4LYLBdSlKcmQAo4t/view"
+          },
+          {
+            "name": "75. The Abominable Snow Rabbit (1961)",
+            "link": "https://drive.google.com/file/d/1WRJpqhuSgekRPyYp2Smws-3SXuhQuizs/view"
+          },
+          {
+            "name": "76. Daffy's Inn Trouble (1961)",
+            "link": "https://drive.google.com/file/d/1V3r381Zz1fArFul49fJ6ZIj_Z8ZOHc8o/view"
+          },
+          {
+            "name": "77. Quackodile Tears (1962)",
+            "link": "https://drive.google.com/file/d/1V7cKzU3WkvFpxv4FpkXeTNtPao72Oqhp/view"
+          },
+          {
+            "name": "78. Good Noose (1962)",
+            "link": "https://drive.google.com/file/d/1VRaWb0KnCiPoMLdU-zUWEVzYET367mPE/view"
+          },
+          {
+            "name": "79. Fast Buck Duck (1963)",
+            "link": "https://drive.google.com/file/d/1VTsM4uE4beU3ML2QgUfLylYax4CdTeve/view"
+          },
+          {
+            "name": "80. The Million Hare (1963)",
+            "link": "https://drive.google.com/file/d/1vtC2XbK8ixJGNO-SXhoepDaphxd7gpqf/view"
+          },
+          {
+            "name": "81. Aqua Duck (1963)",
+            "link": "https://drive.google.com/file/d/1VrZd-wCjKh4h6Zsz3li1t64Hem_QFvZo/view"
+          },
+          {
+            "name": "82. The Iceman Ducketh (1964)",
+            "link": "https://drive.google.com/file/d/1A3hn1HEBGqZccPBU66cgMDIBoldVA9ET/view"
+          }
+        ]
       },
       {
         "name": "Little Daffy",
-        "link": null
+        "info": [
+          {
+            "name": "1. Porky's Duck Hunt (1937)",
+            "link": "https://drive.google.com/file/d/1QHIbaJ_PIQs7Fbpu2rvjpnz3Q7pwBqNC/view"
+          },
+          {
+            "name": "2. Daffy Duck & Egghead (1938)",
+            "link": "https://drive.google.com/file/d/1QgE4hQxXjW7TYve4g8aMMRPbeJ1eEfrl/view"
+          },
+          {
+            "name": "3. What Price Porky (1938)",
+            "link": "https://drive.google.com/file/d/1QYWYigRCd1f6Mbk31h8QO4Yq6B3FFJI5/view"
+          },
+          {
+            "name": "4. Porky & Daffy (1938)",
+            "link": "https://drive.google.com/file/d/1RRhHeXbI1sQAYFnJ-WajqYc5J356HAU3/view"
+          },
+          {
+            "name": "5. The Daffy Doc (1938)",
+            "link": "https://drive.google.com/file/d/1Rg1fzDhEx3GoXU31lP3JLie86COF1ZKr/view"
+          },
+          {
+            "name": "6. Daffy Duck In Hollywood (1938)",
+            "link": "https://drive.google.com/file/d/1Rj8bICh6wlQY-oDgm4mgCtWyPo-qqVcY/view"
+          },
+          {
+            "name": "7. Daffy Duck and the Dinosaur (1939)",
+            "link": "https://drive.google.com/file/d/1hckFxWJvRPvUWtOMdzdtqORA5l3N7-hB/view"
+          },
+          {
+            "name": "8. Scalp Trouble (1939)",
+            "link": "https://drive.google.com/file/d/1-BDpOlMpYZYNLndyZlW_x8lIFiOp_Mal/view"
+          },
+          {
+            "name": "9. Wise Quacks (1939)",
+            "link": "https://drive.google.com/file/d/1skEZMQeC6QZbODX8Hk-c-PxIEpQNGnuP/view"
+          },
+          {
+            "name": "10. Porky's Last Stand (1940)",
+            "link": "https://drive.google.com/file/d/1nA1dA1DXf2J_wpEzBTOnCLxaVgM_lvyn/view"
+          },
+          {
+            "name": "11. You Ought To Be In Pictures (1940)",
+            "link": "https://drive.google.com/file/d/1QGfPuNYCs0FVSuTRuWN3b77RxHQk5pEV/view"
+          },
+          {
+            "name": "12. A Coy Decoy (1941)",
+            "link": "https://drive.google.com/file/d/1B3WHzSPSalo9kznLp_TYPWawULFaMBcF/view"
+          },
+          {
+            "name": "13. The Henpecked Duck (1941)",
+            "link": "https://drive.google.com/file/d/1wD4u0Pxpc_q1j8oM3cehr122bbDH2MG3/view"
+          },
+          {
+            "name": "14. Conrad The Sailor (1942)",
+            "link": "https://drive.google.com/file/d/1W23U9BbCfRVnonVKDJ4snv46A1e45_Oz/view"
+          },
+          {
+            "name": "15. Daffy's Southern Exposure (1942)",
+            "link": "https://drive.google.com/file/d/1TXLLDgaPz04uT5bhnZbitP3ocUDGCm4a/view"
+          },
+          {
+            "name": "16. The Impatient Patient (1942)",
+            "link": "https://drive.google.com/file/d/1TxlSdZZ62XtYLGUFrlVqHTIoERUBwCp8/view"
+          },
+          {
+            "name": "17. The Daffy Duckaroo (1942)",
+            "link": "https://drive.google.com/file/d/1U-m85BGszWCD0zXW3XT2ZeY2QaYxGyk7/view"
+          }
+        ]
       }
     ]
   },
   {
-    "name": "Foghorn Leghorn",
+    "name": "Foghorn Leghorn ",
     "info": [
       {
         "name": "1. Walky Talky Hawky (1946)",
@@ -667,7 +1067,7 @@
     ]
   },
   {
-    "name": "Pepé Le Pew",
+    "name": "Pepé Le Pew ",
     "info": [
       {
         "name": "1. Odor-Able Kitty (1945)",
@@ -813,7 +1213,7 @@
     ]
   },
   {
-    "name": "Speedy Gonzales",
+    "name": "Speedy Gonzales ",
     "info": [
       {
         "name": "0. Cat-Tails for Two (1953)",
@@ -1068,7 +1468,7 @@
     ]
   },
   {
-    "name": "Wile. E Coyote and the Roadrunner",
+    "name": "Wile. E Coyote and the Roadrunner ",
     "info": [
       {
         "name": "1. Fast and Furry-ous (1949)",
