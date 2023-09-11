@@ -17,7 +17,7 @@ export const MainPage = () => {
 					<p className={"text-3xl pt-5"}>
 						¡Bienvenido a La Looney Web, el paraíso de la diversión y la nostalgia con los Looney Tunes! 😄🐰🦆 Sumérgete en el mágico mundo de Bugs Bunny, Daffy Duck, Porky Pig y todos tus personajes favoritos de la infancia en esta plataforma única y llena de entretenimiento.
 					</p>
-					<Link href={"/escuelas"} className="mt-9 group relative h-12 w-48 overflow-hidden text-lg shadow flex justify-center items-center">
+					<Link href={"/escuelas"} className="mt-9 group relative h-12 w-48 overflow-hidden text-lg shadow flex justify-center items-center mb-24">
 						<div
 							className="absolute inset-0 w-3 bg-green transition-all duration-[250ms] ease-out group-hover:w-full"></div>
 						<span className="relative dark:text-pink group-hover:text-orange">

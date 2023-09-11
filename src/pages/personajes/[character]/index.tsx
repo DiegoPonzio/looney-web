@@ -105,12 +105,12 @@ const Index: FC<MyProps> = ({ character }) => {
     return (
         <Layout title={character}>
             <div className={"pt-20 flex flex-col items-center justify-center w-full"}>
-                <div className={"flex flex-col md:flex-row items-center justify-center w-4/5 mb-6"}>
-                    <div className={"flex flex-col items-center justify-center w-1/2"}>
+                <div className={"flex flex-col md:flex-row items-center justify-center w-full md:w-4/5 mb-6"}>
+                    <div className={"flex flex-col items-center justify-center w-full md:w-1/2 px-6"}>
                         <h1 className={"text-4xl text-red mb-3"}>{character}</h1>
                         <img src={characterImage} alt={character} className={"w-full md:h-[70vh] h-[45vh] object-contain"}/>
                     </div>
-                    <div className={"flex flex-col justify-between items-center text-xl my-7 text-center w-1/2"}>
+                    <div className={"flex flex-col justify-between items-center text-xl my-7 text-center w-full px-6 md:w-1/2"}>
                         <div className={"flex flex-col items-center justify-center w-full md:w-1/2 mb-12"}>
                             <h2 className={"text-4xl mb-4 text-orange"}>Información</h2>
                             <p className={"text-justify text-2xl"}>{characterData}</p>
