@@ -12,7 +12,7 @@ export const MainPage = () => {
 		<>
 			<div className={"flex flex-col justify-center items-center h-screen pt-20"}>
 				<div className={"flex flex-col justify-center items-center text-center w-6/12"}>
-					<Image src={""} alt={"Logo"} />
+					<Image src={"/Logo.jpg"} width={"350"} height={"350"} alt={"Logo"} className={"object-contain"} />
 					<h1 className={"text-6xl font-bold text-red"}>La Looney Web</h1>
 					<p className={"text-3xl pt-5"}>
 						¡Bienvenido a La Looney Web, el paraíso de la diversión y la nostalgia con los Looney Tunes! 😄🐰🦆 Sumérgete en el mágico mundo de Bugs Bunny, Daffy Duck, Porky Pig y todos tus personajes favoritos de la infancia en esta plataforma única y llena de entretenimiento.
