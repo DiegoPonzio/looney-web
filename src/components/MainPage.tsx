@@ -10,9 +10,9 @@ export const MainPage = () => {
 
 	return (
 		<>
-			<div className={"flex flex-col justify-center items-center h-screen pt-20"}>
-				<div className={"flex flex-col justify-center items-center text-center w-6/12"}>
-					<Image src={"/Logo.jpg"} width={"350"} height={"350"} alt={"Logo"} className={"object-contain"} />
+			<div className={"flex flex-col justify-center items-center h-screen pt-36 md:pt-20"}>
+				<div className={"flex flex-col justify-center items-center text-center md:w-6/12"}>
+					<Image src={"/Logo.jpg"} width={"350"} height={"350"} alt={"Logo"} className={"object-contain pt-32 md:pt-0"} />
 					<h1 className={"text-6xl font-bold text-red"}>La Looney Web</h1>
 					<p className={"text-3xl pt-5"}>
 						¡Bienvenido a La Looney Web, el paraíso de la diversión y la nostalgia con los Looney Tunes! 😄🐰🦆 Sumérgete en el mágico mundo de Bugs Bunny, Daffy Duck, Porky Pig y todos tus personajes favoritos de la infancia en esta plataforma única y llena de entretenimiento.
@@ -27,7 +27,7 @@ export const MainPage = () => {
 					</Link>
 				</div>
 			</div>
-			<div className={"flex items-center justify-center flex-col"}>
+			<div className={"mt-36 md:mt-0 flex items-center justify-center flex-col"}>
 				<div className={"grid grid-cols-1 md:grid-cols-3 place-content-center gap-10"}>
 					{loading ? <p>Cargando...</p> : error ? <p>Ha ocurrido un error</p> : characters.map((character, index) => (
 						<ImageCards title={character.name} description={dataCharacters[index]} image={images[index]} />
