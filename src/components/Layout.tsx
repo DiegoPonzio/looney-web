@@ -24,7 +24,7 @@ export const Layout: FC<MyProps> = ({ children, title }) => {
 			<Head>
 				<title>{title}</title>
 				<meta name="description" content="¡Bienvenidos al mundo de risas y caos de los Looney Tunes! Explora las travesuras de Bugs Bunny, Daffy Duck y más. Revive momentos clásicos, descubre curiosidades y celebra el legado de estos personajes icónicos de la animación." />
-				<link rel="icon" href="/Logo.ico" />
+				<link rel="icon" href="/logo.ico" />
 			</Head>
 			<header className={"flex items-center justify-between px-4 w-full fixed bg-white dark:bg-[#1A1A1A]"}>
 				<div className={"max-lg:overflow-hidden max-md:max-w-[90vw] h-full flex justify-between items-center"}>
